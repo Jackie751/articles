@@ -14,7 +14,11 @@
     "folder": "Journal",
     "title": "《Obsession》",
     "category": "影评",
-    "tags": [],
+    "tags": [
+      "人性",
+      "恐怖片",
+      "情感"
+    ],
     "date": "2026-05-29",
     "template": "default",
     "excerpt": "男主 Bear 是一个内向、自卑、不太敢表达自己的人。他一直暗恋自己的朋友 Nikki。Nikki 是那种很外向、很明亮、很受欢迎的人，在他们四个人的小团体里，她像是情绪中心一样的存在。她对 Bear 很好，但那种好更像是朋友之间的亲近，甚…"
