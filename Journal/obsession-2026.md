@@ -1,5 +1,5 @@
 ---
-title: Obsession
+title: Obsession · 痴迷
 category: 影评
 tags:
   - 人性
