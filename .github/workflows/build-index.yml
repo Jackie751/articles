@@ -4,7 +4,10 @@ on:
   push:
     branches: [main]
     paths:
-      - '**.md'
+      - 'Opinion/**.md'
+      - 'Journal/**.md'
+      - 'Focus/**.md'
+      - 'Ideas/**.md'
 
 permissions:
   contents: write
@@ -20,38 +23,45 @@ jobs:
           python3 << 'PYEOF'
           import os, json, re
 
+          FOLDERS = ['Opinion', 'Journal', 'Focus', 'Ideas']
           articles = []
-          for fname in os.listdir('.'):
-            if not fname.endswith('.md'):
+
+          for folder in FOLDERS:
+            if not os.path.isdir(folder):
               continue
-            with open(fname, encoding='utf-8') as f:
-              content = f.read()
+            for fname in os.listdir(folder):
+              if not fname.endswith('.md'):
+                continue
+              fpath = os.path.join(folder, fname)
+              with open(fpath, encoding='utf-8') as f:
+                content = f.read()
 
-            fm = {}
-            body = content
-            m = re.match(r'^---\n(.*?)\n---\n', content, re.DOTALL)
-            if m:
-              for line in m.group(1).split('\n'):
-                if ':' in line:
-                  k, v = line.split(':', 1)
-                  fm[k.strip()] = v.strip()
-              body = content[m.end():]
+              fm = {}
+              body = content
+              m = re.match(r'^---\n(.*?)\n---\n', content, re.DOTALL)
+              if m:
+                for line in m.group(1).split('\n'):
+                  if ':' in line:
+                    k, v = line.split(':', 1)
+                    fm[k.strip()] = v.strip()
+                body = content[m.end():]
 
-            if not fm.get('title'):
-              continue
+              if not fm.get('title'):
+                continue
 
-            excerpt = re.sub(r'^#+\s+.+$', '', body, flags=re.MULTILINE)
-            excerpt = re.sub(r'[#*>`!\[\]()]', '', excerpt)
-            excerpt = ' '.join(excerpt.split())[:120] + '…'
+              excerpt = re.sub(r'^#+\s+.+$', '', body, flags=re.MULTILINE)
+              excerpt = re.sub(r'[#*>`!\[\]()-]', '', excerpt)
+              excerpt = ' '.join(excerpt.split())[:120] + '…'
 
-            articles.append({
-              'id': fname[:-3],
-              'title': fm.get('title', ''),
-              'category': fm.get('category', '其他'),
-              'tags': [t.strip() for t in fm.get('tags', '').split(',') if t.strip()],
-              'date': fm.get('date', ''),
-              'excerpt': excerpt,
-            })
+              articles.append({
+                'id': fname[:-3],
+                'folder': folder,
+                'title': fm.get('title', ''),
+                'category': fm.get('category', folder),
+                'tags': [t.strip() for t in fm.get('tags', '').split(',') if t.strip()],
+                'date': fm.get('date', ''),
+                'excerpt': excerpt,
+              })
 
           articles.sort(key=lambda x: x['date'], reverse=True)
 
