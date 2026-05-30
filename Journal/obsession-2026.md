@@ -1,5 +1,5 @@
 ---
-title: 《Obsession》痴迷影评分析
+title: 《Obsession》
 category: 影评
 tags:
   - 心理分析
