@@ -1,5 +1,5 @@
 ---
-title: 《Obsession》真正恐怖的不是病娇，而是「我希望你只爱我」
+title: 《Obsession》痴迷影评分析
 category: 影评
 tags:
   - 心理分析
