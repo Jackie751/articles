@@ -149,3 +149,4 @@ template: tegami
 2. 在 `src/pages/Article.jsx` 里 import 并添加判断条件
 3. 文章 frontmatter 填 `template: xxx` 即可使用
 
+#情感 #人性 #恐怖片
