@@ -2,9 +2,6 @@
 title: 《Obsession》
 category: 影评
 tags:
-  - 心理
-  - 情感
-  - 人格
 date: 2026-05-29
 ---
 
