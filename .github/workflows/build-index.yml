@@ -3,11 +3,6 @@ name: Build Index
 on:
   push:
     branches: [main]
-    paths:
-      - 'Opinion/**.md'
-      - 'Journal/**.md'
-      - 'Focus/**.md'
-      - 'Ideas/**.md'
 
 permissions:
   contents: write
@@ -49,6 +44,11 @@ jobs:
               if not fm.get('title'):
                 continue
 
+              # 支持空格、英文逗号、中文逗号分隔 tags
+              raw_tags = fm.get('tags', '')
+              raw_tags = raw_tags.replace('，', ' ').replace(',', ' ')
+              tags = [t.strip() for t in raw_tags.split() if t.strip()]
+
               excerpt = re.sub(r'^#+\s+.+$', '', body, flags=re.MULTILINE)
               excerpt = re.sub(r'[#*>`!\[\]()-]', '', excerpt)
               excerpt = ' '.join(excerpt.split())[:120] + '…'
@@ -58,8 +58,9 @@ jobs:
                 'folder': folder,
                 'title': fm.get('title', ''),
                 'category': fm.get('category', folder),
-                'tags': [t.strip() for t in fm.get('tags', '').split(',') if t.strip()],
+                'tags': tags,
                 'date': fm.get('date', ''),
+                'template': fm.get('template', 'default'),
                 'excerpt': excerpt,
               })
 
