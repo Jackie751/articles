@@ -1,0 +1,70 @@
+name: Build Index
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**.md'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build index.json
+        run: |
+          python3 << 'PYEOF'
+          import os, json, re
+
+          articles = []
+          for fname in os.listdir('.'):
+            if not fname.endswith('.md'):
+              continue
+            with open(fname, encoding='utf-8') as f:
+              content = f.read()
+
+            fm = {}
+            body = content
+            m = re.match(r'^---\n(.*?)\n---\n', content, re.DOTALL)
+            if m:
+              for line in m.group(1).split('\n'):
+                if ':' in line:
+                  k, v = line.split(':', 1)
+                  fm[k.strip()] = v.strip()
+              body = content[m.end():]
+
+            if not fm.get('title'):
+              continue
+
+            excerpt = re.sub(r'^#+\s+.+$', '', body, flags=re.MULTILINE)
+            excerpt = re.sub(r'[#*>`!\[\]()]', '', excerpt)
+            excerpt = ' '.join(excerpt.split())[:120] + '…'
+
+            articles.append({
+              'id': fname[:-3],
+              'title': fm.get('title', ''),
+              'category': fm.get('category', '其他'),
+              'tags': [t.strip() for t in fm.get('tags', '').split(',') if t.strip()],
+              'date': fm.get('date', ''),
+              'excerpt': excerpt,
+            })
+
+          articles.sort(key=lambda x: x['date'], reverse=True)
+
+          with open('index.json', 'w', encoding='utf-8') as f:
+            json.dump(articles, f, ensure_ascii=False, indent=2)
+
+          print(f'Generated index.json with {len(articles)} articles')
+          PYEOF
+
+      - name: Commit index.json
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add index.json
+          git diff --staged --quiet || git commit -m "auto: update index.json"
+          git push
