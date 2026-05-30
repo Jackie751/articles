@@ -51,12 +51,12 @@ template: default
 
 ### category 可选值
 
-| 值 | 对应文件夹 | 颜色 |
-|----|-----------|------|
+| 值       | 对应文件夹    | 颜色         |
+| ------- | -------- | ---------- |
 | Opinion | Opinion/ | 粉红 #ff6eb4 |
 | Journal | Journal/ | 金黄 #ffd166 |
-| Focus | Focus/ | 青蓝 #00e5ff |
-| Ideas | Ideas/ | 紫色 #b47eff |
+| Focus   | Focus/   | 青蓝 #00e5ff |
+| Ideas   | Ideas/   | 紫色 #b47eff |
 
 > ⚠️ category 必须和文件所在文件夹名一致，否则分类筛选会出错
 
@@ -148,3 +148,4 @@ template: tegami
 1. 在 `src/pages/` 新建 `ArticleXxx.jsx`
 2. 在 `src/pages/Article.jsx` 里 import 并添加判断条件
 3. 文章 frontmatter 填 `template: xxx` 即可使用
+
