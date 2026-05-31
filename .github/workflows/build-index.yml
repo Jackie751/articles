@@ -1,26 +1,20 @@
 name: Build Index
-
 on:
   push:
     branches: [main]
-
 permissions:
   contents: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - name: Build index.json
         run: |
           python3 << 'PYEOF'
           import os, json, re
-
           FOLDERS = ['Opinion', 'Journal', 'Focus', 'Ideas']
           articles = []
-
           for folder in FOLDERS:
             if not os.path.isdir(folder):
               continue
@@ -30,7 +24,6 @@ jobs:
               fpath = os.path.join(folder, fname)
               with open(fpath, encoding='utf-8') as f:
                 content = f.read()
-
               fm = {}
               tags = []
               body = content
@@ -58,23 +51,17 @@ jobs:
                     k, v = line.split(':', 1)
                     fm[k.strip()] = v.strip()
                   i += 1
-
               if not fm.get('title'):
                 continue
-
-              # 计算阅读时间（中文约 300字/分钟）
               clean_body = re.sub(r'^---\n.*?\n---\n', '', body, flags=re.DOTALL)
               clean_body = re.sub(r'[#*>`!\[\]()-]', '', clean_body)
               word_count = len(clean_body.replace(' ', '').replace('\n', ''))
               read_time = max(1, round(word_count / 300))
-
-              # excerpt 过滤图片链接
               excerpt = re.sub(r'^#+\s+.+$', '', body, flags=re.MULTILINE)
               excerpt = re.sub(r'!\[.*?\]\(.*?\)', '', excerpt)
               excerpt = re.sub(r'https?://\S+', '', excerpt)
               excerpt = re.sub(r'[#*>`\[\]()-]', '', excerpt)
               excerpt = ' '.join(excerpt.split())[:120] + '…'
-
               articles.append({
                 'id': fname[:-3],
                 'folder': folder,
@@ -86,16 +73,13 @@ jobs:
                 'cover': fm.get('cover', ''),
                 'read_time': read_time,
                 'excerpt': excerpt,
+                'bgm': fm.get('bgm', ''),
               })
-
           articles.sort(key=lambda x: x['date'], reverse=True)
-
           with open('index.json', 'w', encoding='utf-8') as f:
             json.dump(articles, f, ensure_ascii=False, indent=2)
-
           print(f'Generated index.json with {len(articles)} articles')
           PYEOF
-
       - name: Commit index.json
         run: |
           git config user.name "github-actions"
