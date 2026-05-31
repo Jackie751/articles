@@ -7,6 +7,7 @@ tags:
   - 情感
 date: 2026-05-29
 cover: https://music.jackie3137.xyz/f/461f09076692a1841e48/Thunder%20File%20To%20Link_20260530052343.jpg
+bgm: https://music.jackie3137.xyz/f/2ff1bd7bbecd90f52ad9/Mili%2C%E5%A1%9E%E5%A3%AC%E5%94%B1%E7%89%87-MSR%20-%20%E9%93%81%E8%8A%B1%E9%A3%9E.flac
 ---
 ![](https://music.jackie3137.xyz/f/461f09076692a1841e48/Thunder%20File%20To%20Link_20260530052343.jpg)
 看完 2026 年版《Obsession》之后，我一开始以为这只是一个很典型的   病娇女主失控的恐怖故事。
