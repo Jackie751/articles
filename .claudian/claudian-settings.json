@@ -176,7 +176,10 @@
     }
   },
   "settingsProvider": "claude",
-  "lastSelectedChatModel": null,
+  "lastSelectedChatModel": {
+    "providerId": "codex",
+    "model": "openai-codex/gpt-5.6-sol"
+  },
   "savedProviderModel": {},
   "savedProviderEffort": {},
   "savedProviderServiceTier": {},

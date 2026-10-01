@@ -221,9 +221,7 @@
                   "openTabs": [
                     {
                       "tabId": "tab-1790840629698-2f2809y",
-                      "conversationId": null,
-                      "draftModel": "openai-codex/gpt-5.6-terra",
-                      "providerId": "codex"
+                      "conversationId": "conv-1790845067212-gmwpwr3cg"
                     }
                   ],
                   "activeTabId": "tab-1790840629698-2f2809y"
@@ -244,12 +242,11 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
-    "width": 311.33331298828125,
-    "collapsed": true
+    "width": 311.33331298828125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -269,7 +266,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2b3d077cc74cc500",
+  "active": "66e5297c1733996a",
   "lastOpenFiles": [
     "Professional Learning/ACCA/ACCA-网课-BT【Peter】.pdf",
     "Handwriting/markdown/Untitled.md",
