@@ -195,7 +195,7 @@
   "enableDualPane": true,
   "dualPaneSide": "right",
   "restoreTabsOnStartup": true,
-  "skillsSynced": false,
+  "skillsSynced": true,
   "sessionManagerOrganization": "list",
   "sessionManagerSort": "last-updated",
   "sessionAutoArchiveAfter": "off",
