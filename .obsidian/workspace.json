@@ -221,7 +221,9 @@
                   "openTabs": [
                     {
                       "tabId": "tab-1790840629698-2f2809y",
-                      "conversationId": null
+                      "conversationId": null,
+                      "draftModel": "openai-codex/gpt-5.6-terra",
+                      "providerId": "codex"
                     }
                   ],
                   "activeTabId": "tab-1790840629698-2f2809y"
@@ -263,10 +265,11 @@
       "full-calendar-remastered:FCR Command": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "notebook-navigator:Notebook Navigator": false,
-      "fleur-pdf:FleurPDF": false
+      "fleur-pdf:FleurPDF": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0a1e16c582d09b87",
+  "active": "2b3d077cc74cc500",
   "lastOpenFiles": [
     "Professional Learning/ACCA/ACCA-网课-BT【Peter】.pdf",
     "Handwriting/markdown/Untitled.md",
