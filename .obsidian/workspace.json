@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/obsession-2026.md",
+                "file": "Focus/组织.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "obsession-2026"
+              "title": "组织"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#excalidraw",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,16 +77,6 @@
               },
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
-            }
-          },
-          {
-            "id": "25f794f7977f815f",
-            "type": "leaf",
-            "state": {
-              "type": "notebook-navigator",
-              "state": {},
-              "icon": "notebook-navigator",
-              "title": "Notebook Navigator"
             }
           }
         ]
@@ -181,16 +171,6 @@
             }
           },
           {
-            "id": "022de12c6079bf7b",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
             "id": "13438ffecfcbf8eb",
             "type": "leaf",
             "state": {
@@ -198,16 +178,6 @@
               "state": {},
               "icon": "lucide-info",
               "title": "File properties"
-            }
-          },
-          {
-            "id": "0cfadf902ff5d068",
-            "type": "leaf",
-            "state": {
-              "type": "linter-diff-preview",
-              "state": {},
-              "icon": "git-compare",
-              "title": "Lint preview"
             }
           },
           {
@@ -230,19 +200,9 @@
               "icon": "bot",
               "title": "Claudian"
             }
-          },
-          {
-            "id": "8d4db40c8b668410",
-            "type": "leaf",
-            "state": {
-              "type": "fleur-sidebar",
-              "state": {},
-              "icon": "list",
-              "title": "批注总览"
-            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -269,6 +229,12 @@
   },
   "active": "2b3d077cc74cc500",
   "lastOpenFiles": [
+    "Journal/obsession-2026.md",
+    "Templates/Tags.md",
+    "Focus/组织.md",
+    "Templates/Templates 1.md",
+    "README.md",
+    "Untitled.md",
     "Temporary",
     "Professional Learning/ACCA/ACCA-网课-BT【Peter】.pdf",
     "Handwriting/markdown/Untitled.md",
@@ -294,13 +260,8 @@
     "Learning/2026 Fall/ACC 313/13/Advance From Customers Model.md",
     "Professional Learning/ACCA/Untitled.md",
     "Learning/2026 Fall/ACC 313/Review Guide.md",
-    "Untitled.md",
-    "人生.md",
-    "Learning/2026 Fall/ACC 313/13/Loss Contingency/Loss Contingency Sheet.md",
-    "Learning/2026 Fall/ACC 313/18/Relationship.md",
     "Learning/2026 Fall/ACC 313/13/Loss Contingency/Loss Contingencies Review.pdf",
     "Handwriting/Images/Pasted image 20260930052133.png",
-    "Learning/2026 Fall/ACC 313/13/Paid Future Absence.md",
     "Handwriting/Images/Pasted image 20260930051146.png",
     "Handwriting/Images/Pasted image 20260930050343.png",
     "Learning/2026 Fall/ACC 313/13/Current Liabilities v.s. Long-Term Liability.pdf",
@@ -308,7 +269,6 @@
     "Learning/2026 Fall/ACC 313/13/Loss Contingency/Base",
     "Learning/2026 Fall/ACC 313/13/Loss Contingency/Notes.pdf",
     "Learning/2026 Fall/ACC 313/18/Untitled",
-    "Handwriting/Untitled.pptx",
     "Handwriting/Images/Pasted image 20260825152126.png",
     "Excalidraw/Scripts/Downloaded/Printable Layout Wizard.svg",
     "Handwriting/Images/Pasted image 20260825130415.png",

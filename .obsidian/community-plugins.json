@@ -1,13 +1,7 @@
 [
-  "full-calendar-remastered",
   "dataview",
-  "calendar",
-  "obsidian-linter",
-  "obsidian-excalidraw-plugin",
-  "excalidraw-extras",
   "realclaudian",
-  "notebook-navigator",
-  "fleur-pdf",
   "editing-toolbar",
-  "obsidian-git"
+  "obsidian-git",
+  "notebook-navigator"
 ]
