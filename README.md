@@ -40,23 +40,23 @@ template: default
 
 ### 字段说明
 
-| 字段 | 必填 | 说明 |
-|------|------|------|
-| title | ✅ | 文章标题，显示在卡片和详情页 |
-| category | ✅ | 分类，填文件夹名（见下方） |
-| date | ✅ | 日期，格式必须是 YYYY-MM-DD |
-| tags | ❌ | 标签，用英文逗号分隔 |
-| template | ❌ | 模板，不填默认暗棕色 |
-| subtitle | ❌ | 副标题，显示在标题下方 |
+| 字段       | 必填  | 说明                  |
+| -------- | --- | ------------------- |
+| title    | ✅   | 文章标题，显示在卡片和详情页      |
+| category | ✅   | 分类，标签Tags添加         |
+| date     | ✅   | 日期，格式必须是 YYYY-MM-DD |
+| tags     | ❌   | 标签，模板页              |
+| template | ❌   | 模板，不填默认暗棕色          |
+| subtitle | ❌   | 副标题，显示在标题下方         |
 
 ### category 可选值
 
-| 值       | 对应文件夹    | 颜色         |
-| ------- | -------- | ---------- |
-| Opinion | Opinion/ | 粉红 #ff6eb4 |
-| Journal | Journal/ | 金黄 #ffd166 |
-| Focus   | Focus/   | 青蓝 #00e5ff |
-| Ideas   | Ideas/   | 紫色 #b47eff |
+| 值       | 对应文件夹    | 颜色  |     |
+| ------- | -------- | --- | --- |
+| Opinion | Opinion/ | 粉红  |     |
+| Journal | Journal/ | 金黄  |     |
+| Focus   | Focus/   | 青蓝  |     |
+| Ideas   | Ideas/   | 紫色  |     |
 
 > ⚠️ category 必须和文件所在文件夹名一致，否则分类筛选会出错
 
@@ -149,4 +149,4 @@ template: tegami
 2. 在 `src/pages/Article.jsx` 里 import 并添加判断条件
 3. 文章 frontmatter 填 `template: xxx` 即可使用
 
-#情感 #人性 #恐怖片
+

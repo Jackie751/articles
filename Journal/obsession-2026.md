@@ -1,10 +1,9 @@
 ---
 title: Obsession · 痴迷
-category: 影评
+category: Journal
 tags:
-  - 人性
-  - 恐怖片
-  - 情感
+  - 惊悚
+  - 恐怖
 date: 2026-05-29
 cover: https://music.jackie3137.xyz/f/461f09076692a1841e48/Thunder%20File%20To%20Link_20260530052343.jpg
 bgm: https://music.jackie3137.xyz/f/0f4de347f9a047b6a80e/%EF%BC%82Love_is_in_the_Air_Pt_1%EF%BC%82_by_ROCK_BURWELL_from_OBSESSION.mp3

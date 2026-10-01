@@ -1,3 +1,5 @@
 {
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "userIgnoreFilters": null,
+  "alwaysUpdateLinks": true
 }
