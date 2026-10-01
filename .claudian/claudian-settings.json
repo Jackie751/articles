@@ -1,5 +1,5 @@
 {
-  "userName": "",
+  "userName": "Jackie",
   "permissionMode": "auto",
   "model": "haiku",
   "effortLevel": "high",
@@ -190,7 +190,7 @@
   "pendingProviderSessionInvalidations": {},
   "maxWarmAgentProcesses": 5,
   "enableAutoScroll": true,
-  "showMessageTimestamps": false,
+  "showMessageTimestamps": true,
   "deferMathRenderingDuringStreaming": true,
   "expandFileEditsByDefault": false,
   "chatViewPlacement": "right-sidebar",
