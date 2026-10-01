@@ -246,7 +246,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.33331298828125
+    "width": 311.33331298828125,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -266,7 +267,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0a1e16c582d09b87",
+  "active": "2b3d077cc74cc500",
   "lastOpenFiles": [
     "Temporary",
     "Professional Learning/ACCA/ACCA-网课-BT【Peter】.pdf",
