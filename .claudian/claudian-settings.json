@@ -6,7 +6,7 @@
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
   "titleGenerationLocale": "",
-  "titleGenerationModel": "",
+  "titleGenerationModel": "openai-codex/gpt-5.6-luna",
   "excludedTags": [],
   "mediaFolder": "",
   "systemPrompt": "",
