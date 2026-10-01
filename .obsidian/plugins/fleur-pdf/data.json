@@ -1,0 +1,31 @@
+{
+  "aiProvider": "deepseek",
+  "apiKey": "",
+  "secretStorageMode": "system",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "model": "deepseek-chat",
+  "temperature": 0.7,
+  "promptPreset": "default",
+  "customPrompts": [
+    "",
+    "",
+    ""
+  ],
+  "annotationLimit": 250,
+  "highlightColors": [
+    "#D4A017",
+    "#2979C4",
+    "#D32F2F"
+  ],
+  "underlineColor": "#6B0000",
+  "noteFolder": "Handwriting/markdown",
+  "sidebarPosition": "right",
+  "sidebarDefaultOpen": true,
+  "annotationSort": "time",
+  "mobileDebug": false,
+  "inkSwitcherHidden": false,
+  "inkShowEditSeg": true,
+  "inkShowInkSeg": true,
+  "inkShowSideSeg": true,
+  "hideRibbonIcon": false
+}

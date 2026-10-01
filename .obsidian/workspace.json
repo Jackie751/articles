@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "555aa35d50c043cc",
+    "id": "ea05aff97ab8d33e",
     "type": "split",
     "children": [
       {
-        "id": "c5578280370e5b6d",
+        "id": "c5c674fcdf929603",
         "type": "tabs",
         "children": [
           {
-            "id": "ef7d4a2bbaf336fc",
+            "id": "2b3d077cc74cc500",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/Today.md",
+                "file": "Journal/obsession-2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Today"
+              "title": "obsession-2026"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "34bcb1509c1b0f82",
+    "id": "ca7dfa80d181c79b",
     "type": "split",
     "children": [
       {
-        "id": "e441db5a2a3e20de",
+        "id": "0b4bbcd62e5165d7",
         "type": "tabs",
         "children": [
           {
-            "id": "27d69d90763d4b7b",
+            "id": "0a1e16c582d09b87",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -50,13 +50,13 @@
             }
           },
           {
-            "id": "d3a2c36b38668648",
+            "id": "a5d9293b49b2e4a2",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": true,
+                "query": "tag:#excalidraw",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -67,35 +67,49 @@
             }
           },
           {
-            "id": "3735a9e788db1b92",
+            "id": "1d7b939f24d0b7b6",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "25f794f7977f815f",
+            "type": "leaf",
+            "state": {
+              "type": "notebook-navigator",
+              "state": {},
+              "icon": "notebook-navigator",
+              "title": "Notebook Navigator"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 258
   },
   "right": {
-    "id": "902fddb16d116fa2",
+    "id": "454eebff1a371209",
     "type": "split",
     "children": [
       {
-        "id": "7519518ab68cbc4f",
+        "id": "5f3901ee532a739b",
         "type": "tabs",
         "children": [
           {
-            "id": "afb83083f0ae9804",
+            "id": "4575d39b44693431",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Learning/2026 Fall/ACC 313/Review Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,11 +123,12 @@
             }
           },
           {
-            "id": "93559d29835ea740",
+            "id": "065dba0dac91a291",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Transfer/2026 Fall/Soc 248/Review Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -122,7 +137,7 @@
             }
           },
           {
-            "id": "30b5f72160f253a9",
+            "id": "422651351c74ffcd",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,7 +152,7 @@
             }
           },
           {
-            "id": "3873d90a3bddb89a",
+            "id": "1d7316cd96e15ab8",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -151,40 +166,92 @@
             }
           },
           {
-            "id": "3e0b921f4db49fc0",
+            "id": "f09061756537bbb6",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Post/Journal/obsession-2026.md",
+                "file": "Handwriting/markdown/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of obsession-2026"
+              "title": "Outline"
             }
           },
           {
-            "id": "6dda76443d431dca",
+            "id": "022de12c6079bf7b",
             "type": "leaf",
             "state": {
-              "type": "git-view",
+              "type": "calendar",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "13438ffecfcbf8eb",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {},
+              "icon": "lucide-info",
+              "title": "File properties"
+            }
+          },
+          {
+            "id": "0cfadf902ff5d068",
+            "type": "leaf",
+            "state": {
+              "type": "linter-diff-preview",
+              "state": {},
+              "icon": "git-compare",
+              "title": "Lint preview"
+            }
+          },
+          {
+            "id": "66e5297c1733996a",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {
+                "tabWorkspace": {
+                  "version": 1,
+                  "openTabs": [
+                    {
+                      "tabId": "tab-1790840629698-2f2809y",
+                      "conversationId": null
+                    }
+                  ],
+                  "activeTabId": "tab-1790840629698-2f2809y"
+                }
+              },
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          },
+          {
+            "id": "8d4db40c8b668410",
+            "type": "leaf",
+            "state": {
+              "type": "fleur-sidebar",
+              "state": {},
+              "icon": "list",
+              "title": "批注总览"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 311.33331298828125,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "realclaudian:Open Claudian": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -192,59 +259,61 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
-      "realclaudian:Open Claudian": false,
-      "iconic:Open rulebook": false,
-      "quickadd:QuickAdd": false
+      "full-calendar-remastered:Open Full Calendar": false,
+      "full-calendar-remastered:FCR Command": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "notebook-navigator:Notebook Navigator": false,
+      "fleur-pdf:FleurPDF": false
     }
   },
-  "active": "ef7d4a2bbaf336fc",
+  "active": "0a1e16c582d09b87",
   "lastOpenFiles": [
-    "Templates/Tags.md",
-    "Journal/Today.md",
-    "Journal/obsession-2026.md",
-    "Invalid date.md",
-    "Templates/Templates 1.md",
-    "Opinion/s.md",
-    "README.md",
-    "Journal/Untitled.md",
-    "Ideas/无敌了.md",
-    "Templates",
-    "2026-09-21.md",
-    "templates/chat-archive/2026-07-01_Laughing hard.md",
-    "templates/chat-archive/2026-06-09_Los Angeles VPS server benchmark report.md",
-    "templates/chat-archive/2026-05-12_ΦºúΘóÿµû╣µ│òµ▒éσè⌐.md",
-    "templates/chat-archive/2026-05-12_σ¡ÿΦ┤ºΦ╖îΣ╗╖µìƒσñ▒τÜäΦ«░σ╜òµû╣µ│òσÆîLCNRVσÄƒσêÖ.md",
-    "templates/chat-archive/2026-05-12_σ¡ÿΦ┤ºσÅ»σÅÿτÄ░σçÇσÇ╝Σ╕ÄµêÉµ£¼σ¡░Σ╜Äµ│ò.md",
-    "templates/chat-archive/2026-04-03_How compound interest works.md",
-    "Post/Ideas/Untitled.md",
-    "Post/Journal/obsession-2026.md",
-    "Tools Index/工具分享/Kazumi 实时追番工具.md",
-    "Tools Index/影视分享/新电影(保留2个月）/June_Popular_Movies_Tem.md",
-    "Tools Index/Telegram 汇总 次日11点更新/June/2026-06-06_影视排名总评.md",
-    "Tools Index/Telegram 汇总 次日11点更新/June/2026-06-07_影视排名总评.md",
-    "Tools Index/Telegram 汇总 次日11点更新/June/New Text Document.txt",
-    "Tools Index/Telegram 汇总 次日11点更新/June/digest_2026-06-06.md",
-    "Announcement/json_backups/arktips_backup_20260607_101148.json",
-    "Announcement/json_backups/arktips-3_backup_20260607_101148.json",
-    "Announcement/json_backups/arktips_backup_20260607_101136.json",
-    "Announcement/json_backups/arktips-3_backup_20260607_101136.json",
-    "Announcement/json_backups/arktips_backup_20260607_101107.json",
-    "Announcement/json_backups/arktips-2_backup_20260607_101107.json",
-    "Announcement/json_backups/arktips_backup_20260607_101058.json",
-    "Announcement/json_backups/arktips-2_backup_20260607_101058.json",
-    "Tools Index/影视分享/每期汇总/2026 20期/电影报告_2026年5月20日-6月1日.md",
-    "Tools Index/影视分享/每期汇总/2026 20期/流媒体剧集报告_2026年5月30日-6月4日.md",
-    "templates/Movies_Session_anyaysis_detail.md",
-    "Announcement/arktips_images/2026-05-21_7125.jpg",
-    "Announcement/arktips_images/2026-05-21_172.jpg",
-    "Announcement/arktips_images/2026-05-21_175.jpg",
-    "Announcement/arktips_images/2026-05-21_174.jpg",
-    "Announcement/arktips_images/2026-05-21_173.jpg",
-    "Announcement/arktips_images/2026-05-21_7126.jpg",
-    "Announcement/arktips_images/2026-05-21_7134.jpg",
-    "Announcement/arktips_images/2026-05-21_7135.jpg",
-    "Announcement/arktips_images/2026-05-21_7136.jpg",
-    "Announcement/arktips_images/2026-05-20_7105.jpg"
+    "Professional Learning/ACCA/ACCA-网课-BT【Peter】.pdf",
+    "Handwriting/markdown/Untitled.md",
+    "Handwriting/markdown/Untitled.canvas",
+    "Excel 2026-10-01 03.25.25.univer.md",
+    "Handwriting/markdown/Handwriting2026-10-01 03.11.05.excalidraw.md",
+    "Handwriting/markdown/ACCA-网课-BT【Peter】 - 批注笔记.md",
+    "Handwriting/markdown/Handwriting2026-09-29 16.25.20.excalidraw.md",
+    "FleurReader/ACCA-网课-BT【Peter】 - 批注笔记.md",
+    "FleurReader",
+    "Learning/2026 Fall/ACC 313/13/Different Payable.md",
+    "Learning/2026 Fall/ACC 313/13/Interest v.s. Non-Interest.pdf",
+    "Learning/2026 Fall/ACC 313/13/Lecture Note.md",
+    "Learning/2026 Fall/SOC 248/Protect Forests 5 - Organized.md",
+    "Learning/2026 Fall/SOC 248/Protect Forests 5 - Organized.bak.md",
+    "Learning/2026 Fall/SOC 248/Protect Forests 2.md",
+    "Learning/2026 Fall/SOC 248/Protect Forests 5.md",
+    "Learning/2026 Fall/SOC 248/Review Guide.md",
+    "Learning/2026 Fall/BUS 365/Problem Set 1.md",
+    "Learning/2026 Fall/BUS 365/Part 1.md",
+    "Learning/2026 Fall/ACC 313/13/Current Liabilities v.s. Long-Term Liability.md",
+    "Learning/2026 Fall/ACC 313/13/Coupons Model.md",
+    "Learning/2026 Fall/ACC 313/13/Advance From Customers Model.md",
+    "Professional Learning/ACCA/Untitled.md",
+    "Learning/2026 Fall/ACC 313/Review Guide.md",
+    "Untitled.md",
+    "人生.md",
+    "Learning/2026 Fall/ACC 313/13/Loss Contingency/Loss Contingency Sheet.md",
+    "Learning/2026 Fall/ACC 313/18/Relationship.md",
+    "Learning/2026 Fall/ACC 313/13/Loss Contingency/Loss Contingencies Review.pdf",
+    "Handwriting/Images/Pasted image 20260930052133.png",
+    "Learning/2026 Fall/ACC 313/13/Paid Future Absence.md",
+    "Handwriting/Images/Pasted image 20260930051146.png",
+    "Handwriting/Images/Pasted image 20260930050343.png",
+    "Learning/2026 Fall/ACC 313/13/Current Liabilities v.s. Long-Term Liability.pdf",
+    "Learning/2026 Fall/ACC 313/13/Loss Contingency/Practise 1.pdf",
+    "Learning/2026 Fall/ACC 313/13/Loss Contingency/Base",
+    "Learning/2026 Fall/ACC 313/13/Loss Contingency/Notes.pdf",
+    "Learning/2026 Fall/ACC 313/18/Untitled",
+    "Handwriting/Untitled.pptx",
+    "Handwriting/Images/Pasted image 20260825152126.png",
+    "Excalidraw/Scripts/Downloaded/Printable Layout Wizard.svg",
+    "Handwriting/Images/Pasted image 20260825130415.png",
+    "GoodNoteMax/Untitled.canvas",
+    "Images/Pasted image 20260929130402.png",
+    "Handwriting/Images/Pasted image 20260929125502.png",
+    "Handwriting/Images/Pasted image 20260929125438.png",
+    "Handwriting/Images/Pasted image 20260929125408.png"
   ]
 }

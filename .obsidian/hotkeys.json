@@ -1,5 +1,24 @@
 {
-  "tag-pane:open": [
+  "file-recovery:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "H"
+    }
+  ],
+  "editor:open-search-replace": [],
+  "graph:open": [],
+  "obsidian-excalidraw-plugin:save": [],
+  "obsidian-excalidraw-plugin:export-image": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "0"
+    }
+  ],
+  "realclaudian:open-view": [
     {
       "modifiers": [
         "Mod"

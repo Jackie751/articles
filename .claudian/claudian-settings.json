@@ -2,7 +2,6 @@
   "userName": "",
   "permissionMode": "auto",
   "model": "haiku",
-  "thinkingBudget": "off",
   "effortLevel": "high",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
@@ -70,7 +69,6 @@
       "environmentVariables": "",
       "modelAliases": {},
       "preferredThinkingByModel": {},
-      "selectedMode": "",
       "thinkingOptionsByModel": {},
       "visibleModels": [],
       "selectedModels": []
@@ -92,7 +90,6 @@
   "savedProviderModel": {},
   "savedProviderEffort": {},
   "savedProviderServiceTier": {},
-  "savedProviderThinkingBudget": {},
   "savedProviderPermissionMode": {
     "claude": "auto"
   },
@@ -110,6 +107,9 @@
   "skillsSynced": false,
   "sessionManagerOrganization": "list",
   "sessionManagerSort": "last-updated",
+  "sessionAutoArchiveAfter": "off",
   "pinnedLinkedContentPaths": [],
-  "hiddenCommands": []
+  "hiddenCommands": [],
+  "thinkingBudget": "off",
+  "savedProviderThinkingBudget": {}
 }

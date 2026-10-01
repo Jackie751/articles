@@ -1,7 +1,8 @@
 {
+  "cssTheme": "Primary",
+  "interfaceFontFamily": "",
   "theme": "obsidian",
-  "cssTheme": "Minimal",
-  "baseFontSize": 18,
   "textFontFamily": "Times New Roman",
-  "interfaceFontFamily": "Arial Rounded MT"
+  "baseFontSize": 19,
+  "baseFontSizeAction": false
 }
