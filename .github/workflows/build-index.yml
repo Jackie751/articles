@@ -66,6 +66,7 @@ jobs:
                 'id': fname[:-3],
                 'folder': folder,
                 'title': fm.get('title', '').strip('"\''),
+                'subtitle': fm.get('subtitle', '').strip('"\''),
                 'category': fm.get('category', folder).strip('"\''),
                 'tags': tags,
                 'date': fm.get('date', ''),
